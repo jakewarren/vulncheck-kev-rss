@@ -50,7 +50,7 @@ func main() {
 
 		// add reported exploitation references to the description
 		if len(*vuln.VulncheckReportedExploitation) > 0 {
-			desc += "<br><br>Reported Exploitation:<br><ul>"
+			desc += "Reported Exploitation:<br><ul>"
 			for _, ref := range *vuln.VulncheckReportedExploitation {
 				desc += fmt.Sprintf("<li><a href='%s'>%s</a>", *ref.Url, *ref.Url)
 			}
@@ -81,7 +81,7 @@ func main() {
 
 		// tack on the vulnerable name if available
 		if len(*vuln.VulnerabilityName) > 0 {
-			feedEntry.Title += fmt.Sprintf(" - %s", *vuln.VulnerabilityName)
+			feedEntry.Title += fmt.Sprintf(" - %s<br><br>", *vuln.VulnerabilityName)
 		}
 
 		feed.Items = append(feed.Items, feedEntry)
