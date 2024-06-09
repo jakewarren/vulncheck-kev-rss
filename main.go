@@ -51,6 +51,10 @@ func main() {
 			desc = *vuln.ShortDescription + "<br><br>"
 		}
 
+		if len(*vuln.CisaDateAdded) > 0 {
+			desc += fmt.Sprintf("Date Added to CISA KEV: %s<br>", *vuln.CisaDateAdded)
+		}
+
 		// add vendor information to the description
 		if len(*vuln.VendorProject) > 0 {
 			desc += fmt.Sprintf("Vendor: %s<br>", *vuln.VendorProject)
