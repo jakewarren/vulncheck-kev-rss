@@ -51,7 +51,7 @@ func main() {
 			desc = *vuln.ShortDescription + "<br><br>"
 		}
 
-		if len(*vuln.CisaDateAdded) > 0 {
+		if vuln.CisaDateAdded != nil && len(*vuln.CisaDateAdded) > 0 {
 			desc += fmt.Sprintf("Date Added to CISA KEV: %s<br>", *vuln.CisaDateAdded)
 		}
 
