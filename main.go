@@ -71,5 +71,9 @@ func main() {
 		feed.Items = append(feed.Items, feedEntry)
 	}
 
-	fmt.Println(feed.ToRss())
+	rss, err := feed.ToRss()
+	if err != nil {
+		log.WithError(err).Fatal("Error creating RSS feed")
+	}
+	fmt.Println(rss)
 }
