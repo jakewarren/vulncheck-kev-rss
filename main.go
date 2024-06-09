@@ -60,7 +60,7 @@ func main() {
 			desc += fmt.Sprintf("Vendor: %s<br>", *vuln.VendorProject)
 		}
 		if len(*vuln.Product) > 0 {
-			desc += fmt.Sprintf("Product: %s<br>", *vuln.Product)
+			desc += fmt.Sprintf("Product: %s<br><br>", *vuln.Product)
 		}
 
 		// add reported exploitation references to the description
