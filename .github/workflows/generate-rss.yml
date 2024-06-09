@@ -1,0 +1,34 @@
+name: Generate RSS Feed
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours
+
+jobs:
+  generate_rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+
+      - name: Generate RSS feed
+        run: |
+          go run main.go > rss.xml
+        env:
+          VULNCHECK_TOKEN: ${{ secrets.VULNCHECK_TOKEN }}
+
+      - name: Deploy RSS feed
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: rss-feed
+          force_orphan: true
