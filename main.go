@@ -45,12 +45,23 @@ func main() {
 
 	for _, vuln := range response.Data {
 		dateAdded, _ := time.Parse(time.RFC3339, *vuln.DateAdded)
+		var desc string
 
-		desc := *vuln.ShortDescription
+		if len(*vuln.ShortDescription) > 1 {
+			desc = *vuln.ShortDescription + "<br><br>"
+		}
+
+		// add vendor information to the description
+		if len(*vuln.VendorProject) > 0 {
+			desc += fmt.Sprintf("Vendor: %s<br>", *vuln.VendorProject)
+		}
+		if len(*vuln.Product) > 0 {
+			desc += fmt.Sprintf("Product: %s<br>", *vuln.Product)
+		}
 
 		// add reported exploitation references to the description
 		if len(*vuln.VulncheckReportedExploitation) > 0 {
-			desc += "Reported Exploitation:<br><ul>"
+			desc += "VulnCheck Reported Exploitation Citations:<br><ul>"
 			for _, ref := range *vuln.VulncheckReportedExploitation {
 				desc += fmt.Sprintf("<li><a href='%s'>%s</a>", *ref.Url, *ref.Url)
 			}
@@ -81,7 +92,7 @@ func main() {
 
 		// tack on the vulnerable name if available
 		if len(*vuln.VulnerabilityName) > 0 {
-			feedEntry.Title += fmt.Sprintf(" - %s<br><br>", *vuln.VulnerabilityName)
+			feedEntry.Title += fmt.Sprintf(" - %s", *vuln.VulnerabilityName)
 		}
 
 		feed.Items = append(feed.Items, feedEntry)
