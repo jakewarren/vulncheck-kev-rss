@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"regexp"
 	"time"
 
 	"github.com/gorilla/feeds"
@@ -24,7 +25,6 @@ func main() {
 	VULNCHECK_TOKEN := os.Getenv("VULNCHECK_TOKEN")
 	if VULNCHECK_TOKEN == "" {
 		log.Fatal("VULNCHECK_TOKEN environment variable not set")
-
 	}
 
 	client := sdk.Connect("https://api.vulncheck.com", VULNCHECK_TOKEN)
@@ -59,9 +59,15 @@ func main() {
 
 		// add VulnCheck XDB entries to the description
 		if len(*vuln.VulncheckXdb) > 0 {
-			desc += "<br><br>VulnCheck XDB Entries:<br><ul>"
+			desc += "VulnCheck XDB Entries:<br><ul>"
 			for _, ref := range *vuln.VulncheckXdb {
-				desc += fmt.Sprintf("<li><a href='%s'>%s - %s</a>", *ref.XdbUrl, *ref.XdbUrl, *ref.CloneSshUrl)
+				// if the URL is a git URL, extract the repo name and render it as a link
+				matches := regexp.MustCompile(`(?m)git@github.com:(.*)\.git`).FindAllStringSubmatch(*ref.CloneSshUrl, -1)
+				if len(matches) > 0 {
+					desc += fmt.Sprintf("<li><a href='%s'>%s</a> - <a href='https://github.com/%s'>https://github.com/%s</a>", *ref.XdbUrl, *ref.XdbUrl, matches[0][1], matches[0][1])
+				} else {
+					desc += fmt.Sprintf("<li><a href='%s'>%s</a> - %s", *ref.XdbUrl, *ref.XdbUrl, *ref.CloneSshUrl)
+				}
 			}
 			desc += "</ul>"
 		}
