@@ -29,7 +29,7 @@ func main() {
 
 	client := sdk.Connect("https://api.vulncheck.com", VULNCHECK_TOKEN)
 
-	response, err := client.GetIndexVulncheckKev(sdk.IndexQueryParameters{Limit: 2, Sort: "date_added"})
+	response, err := client.GetIndexVulncheckKev(sdk.IndexQueryParameters{Limit: 10, Sort: "date_added"})
 	if err != nil {
 		log.WithError(err).Fatal("Error getting index")
 	}
