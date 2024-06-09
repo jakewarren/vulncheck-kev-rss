@@ -1,4 +1,4 @@
-# cvrf-review
+# vulncheck-kev-rss
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/vulncheck-kev-rss/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)   
