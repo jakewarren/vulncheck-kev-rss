@@ -50,10 +50,20 @@ func main() {
 
 		// add reported exploitation references to the description
 		if len(*vuln.VulncheckReportedExploitation) > 0 {
-			desc += "<br><br>Reported Exploitation:<br>"
+			desc += "<br><br>Reported Exploitation:<br><ul>"
 			for _, ref := range *vuln.VulncheckReportedExploitation {
-				desc += fmt.Sprintf(" - %s<br>", *ref.Url)
+				desc += fmt.Sprintf("<li><a href='%s'>%s</a>", *ref.Url, *ref.Url)
 			}
+			desc += "</ul>"
+		}
+
+		// add VulnCheck XDB entries to the description
+		if len(*vuln.VulncheckXdb) > 0 {
+			desc += "<br><br>VulnCheck XDB Entries:<br><ul>"
+			for _, ref := range *vuln.VulncheckXdb {
+				desc += fmt.Sprintf("<li><a href='%s'>%s - %s</a>", *ref.XdbUrl, *ref.XdbUrl, *ref.CloneSshUrl)
+			}
+			desc += "</ul>"
 		}
 
 		feedEntry := &feeds.Item{
