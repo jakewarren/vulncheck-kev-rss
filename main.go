@@ -47,7 +47,7 @@ func main() {
 		dateAdded, _ := time.Parse(time.RFC3339, *vuln.DateAdded)
 		var desc string
 
-		if len(*vuln.ShortDescription) > 1 {
+		if vuln.ShortDescription != nil && len(*vuln.ShortDescription) > 1 {
 			desc = *vuln.ShortDescription + "<br><br>"
 		}
 
@@ -56,32 +56,40 @@ func main() {
 		}
 
 		// add vendor information to the description
-		if len(*vuln.VendorProject) > 0 {
+		if vuln.VendorProject != nil && len(*vuln.VendorProject) > 0 {
 			desc += fmt.Sprintf("Vendor: %s<br>", *vuln.VendorProject)
 		}
-		if len(*vuln.Product) > 0 {
+		if vuln.Product != nil && len(*vuln.Product) > 0 {
 			desc += fmt.Sprintf("Product: %s<br><br>", *vuln.Product)
 		}
 
 		// add reported exploitation references to the description
-		if len(*vuln.VulncheckReportedExploitation) > 0 {
+		if vuln.VulncheckReportedExploitation != nil && len(*vuln.VulncheckReportedExploitation) > 0 {
 			desc += "VulnCheck Reported Exploitation Citations:<br><ul>"
 			for _, ref := range *vuln.VulncheckReportedExploitation {
-				desc += fmt.Sprintf("<li><a href='%s'>%s</a>", *ref.Url, *ref.Url)
+				if ref.Url != nil {
+					desc += fmt.Sprintf("<li><a href='%s'>%s</a>", *ref.Url, *ref.Url)
+				}
 			}
 			desc += "</ul>"
 		}
 
 		// add VulnCheck XDB entries to the description
-		if len(*vuln.VulncheckXdb) > 0 {
+		if vuln.VulncheckXdb != nil && len(*vuln.VulncheckXdb) > 0 {
 			desc += "VulnCheck XDB Entries:<br><ul>"
 			for _, ref := range *vuln.VulncheckXdb {
-				// if the URL is a git URL, extract the repo name and render it as a link
-				matches := regexp.MustCompile(`(?m)git@github.com:(.*)\.git`).FindAllStringSubmatch(*ref.CloneSshUrl, -1)
-				if len(matches) > 0 {
-					desc += fmt.Sprintf("<li><a href='%s'>%s</a> - <a href='https://github.com/%s'>https://github.com/%s</a>", *ref.XdbUrl, *ref.XdbUrl, matches[0][1], matches[0][1])
-				} else {
-					desc += fmt.Sprintf("<li><a href='%s'>%s</a> - %s", *ref.XdbUrl, *ref.XdbUrl, *ref.CloneSshUrl)
+				if ref.CloneSshUrl != nil {
+					// if the URL is a git URL, extract the repo name and render it as a link
+					matches := regexp.MustCompile(`(?m)git@github.com:(.*)\.git`).FindAllStringSubmatch(*ref.CloneSshUrl, -1)
+					if len(matches) > 0 {
+						if ref.XdbUrl != nil {
+							desc += fmt.Sprintf("<li><a href='%s'>%s</a> - <a href='https://github.com/%s'>https://github.com/%s</a>", *ref.XdbUrl, *ref.XdbUrl, matches[0][1], matches[0][1])
+						}
+					} else {
+						if ref.XdbUrl != nil {
+							desc += fmt.Sprintf("<li><a href='%s'>%s</a> - %s", *ref.XdbUrl, *ref.XdbUrl, *ref.CloneSshUrl)
+						}
+					}
 				}
 			}
 			desc += "</ul>"
