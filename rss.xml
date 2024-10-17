@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Thu, 17 Oct 2024 18:05:20 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2020-36831 - NextScripts: Social Networks Auto-Poster plugin for WordPress Multiple User privilege/security Functions Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-36831</link>
+      <description>The NextScripts: Social Networks Auto-Poster plugin for WordPress is vulnerable to authorization bypass due to missing capability checks on multiple user privilege/security functions provided in versions up to, and including 4.3.17. This makes it possible for low-privileged attackers, like subscribers, to perform restricted actions that would be otherwise locked to a administrative-level user.&lt;br&gt;&lt;br&gt;Vendor: NextScripts&lt;br&gt;Product: NextScripts: Social Networks Auto-Poster plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/social-networks-auto-poster-facebook-twitter-g/nextscripts-social-networks-auto-poster-4317-missing-authorization&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/social-networks-auto-poster-facebook-twitter-g/nextscripts-social-networks-auto-poster-4317-missing-authorization&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2016-15042 - Frontend File Manager and N-Media Post Front-end Form plugins for WordPress nm_filemanager_upload_file and nm_postfront_upload_file AJAX Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2016-15042</link>
+      <description>The Frontend File Manager (versions &lt; 4.0), N-Media Post Front-end Form (versions &lt; 1.1) plugins for WordPress are vulnerable to arbitrary file uploads due to missing file type validation via the `nm_filemanager_upload_file` and `nm_postfront_upload_file` AJAX actions. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.&lt;br&gt;&lt;br&gt;Vendor: N-Media&lt;br&gt;Product: Frontend File Manager and N-Media Post Front-end Form plugins for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/detail/frontend-file-manager-40-n-media-post-front-end-form-11-arbitrary-file-upload&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/detail/frontend-file-manager-40-n-media-post-front-end-form-11-arbitrary-file-upload&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-36842 - Migration, Backup, Staging -WPvivid plugin for WordPress wpvivid_upload_import_files and wpvivid_upload_files Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-36842</link>
+      <description>The Migration, Backup, Staging -WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.&lt;br&gt;&lt;br&gt;Vendor: WPvivid&lt;br&gt;Product: Migration, Backup, Staging -WPvivid plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wpvivid-backuprestore/migration-backup-staging-wpvivid-0935-authenticated-subscriber-arbitrary-file-upload&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wpvivid-backuprestore/migration-backup-staging-wpvivid-0935-authenticated-subscriber-arbitrary-file-upload&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2017-20194 - Formidable Form Builder plugin for WordPress frm_forms_preview AJAX Action Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2017-20194</link>
+      <description>The Formidable Form Builder plugin for WordPress is vulnerable to Sensitive Data Exposure in versions up to, and including, 2.05.03 via the frm_forms_preview AJAX action. This makes it possible for unauthenticated attackers to export all of the form entries for a given form.&lt;br&gt;&lt;br&gt;Vendor: Strategy11 Form Builder&lt;br&gt;Product: Formidable Form Builder plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/formidable/formidable-form-builder-20503-unauthenticated-information-disclosure&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/formidable/formidable-form-builder-20503-unauthenticated-information-disclosure&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-7293 - Paytium: Mollie payment forms &amp; donations plugin for WordPress check_mollie_account_details Function Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-7293</link>
+      <description>The Paytium: Mollie payment forms &amp; donations plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the check_mollie_account_details function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to verify the existence of a mollie account.&lt;br&gt;&lt;br&gt;Vendor: David de Boer&lt;br&gt;Product: Paytium: Mollie payment forms &amp; donations plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/paytium/paytium-mollie-payment-forms-donations-437-missing-authorization-in-check-mollie-account-details&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/paytium/paytium-mollie-payment-forms-donations-437-missing-authorization-in-check-mollie-account-details&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-7291 - Paytium: Mollie payment forms &amp; donations plugin for WordPress create_mollie_account Function Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-7291</link>
+      <description>The Paytium: Mollie payment forms &amp; donations plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the create_mollie_account function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to set up a mollie account.&lt;br&gt;&lt;br&gt;Vendor: David de Boer&lt;br&gt;Product: Paytium: Mollie payment forms &amp; donations plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/paytium/paytium-mollie-payment-forms-donations-437-missing-authorization-in-create-mollie-account&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/paytium/paytium-mollie-payment-forms-donations-437-missing-authorization-in-create-mollie-account&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2019-25216 - Rich Review plugin for WordPress POST Body Update Parameter Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2019-25216</link>
+      <description>The Rich Review plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the POST body &#39;update&#39; parameter in versions up to, and including, 1.7.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.&lt;br&gt;&lt;br&gt;Vendor: Rich Review&lt;br&gt;Product: Rich Review plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/rich-reviews/rich-reviews-174-stored-cross-site-scripting&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/rich-reviews/rich-reviews-174-stored-cross-site-scripting&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-36834 - Discount Rules for WooCommerce plugin for WordPress AJAX Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-36834</link>
+      <description>The Discount Rules for WooCommerce plugin for WordPress is vulnerable to missing authorization via several AJAX actions in versions up to, and including, 2.0.2 due to missing capability checks on various functions. This makes it possible for subscriber-level attackers to execute various actions and perform a wide variety of actions such as modifying rules and saving configurations.&lt;br&gt;&lt;br&gt;Vendor: Flycart&lt;br&gt;Product: Discount Rules for WooCommerce plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/woo-discount-rules/discount-rules-for-woocommerce-202-missing-authorization&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/woo-discount-rules/discount-rules-for-woocommerce-202-missing-authorization&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2021-4444 - Product Filter by WooBeWoo plugin for WordPress Javascript Injection Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2021-4444</link>
+      <description>The Product Filter by WooBeWoo plugin for WordPress is vulnerable to authorization bypass in versions up to, and including 1.4.9 due to missing authorization checks on various functions. This makes it possible for unauthenticated attackers to perform unauthorized actions such as creating new filters and injecting malicious javascript into a vulnerable site. This was actively exploited at the time of discovery.&lt;br&gt;&lt;br&gt;Vendor: WBW&lt;br&gt;Product: Product Filter by WooBeWoo plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/woo-product-filter/product-filter-by-woobewoo-149-missing-authorization&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/woo-product-filter/product-filter-by-woobewoo-149-missing-authorization&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-7286 - ACF Quick Edit Fields Plugin for WordPress Insecure Direct Object Reference Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-7286</link>
+      <description>The plugin ACF Quick Edit Fields for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 3.2.2. This makes it possible for attackers without the edit_users capability to access metadata of other users, this includes contributor-level users and above.&lt;br&gt;&lt;br&gt;Vendor: Jorn Lund&lt;br&gt;Product: ACF Quick Edit Fields Plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/acf-quickedit-fields/acf-quick-edit-fields-322-authenticated-contributor-insecure-direct-object-reference&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/acf-quickedit-fields/acf-quick-edit-fields-322-authenticated-contributor-insecure-direct-object-reference&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
