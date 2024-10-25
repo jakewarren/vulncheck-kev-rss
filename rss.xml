@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Fri, 25 Oct 2024 00:18:48 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2024-20481 - Cisco ASA and FTD Denial-of-Service Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-20481</link>
+      <description>Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a missing release of resource after effective lifetime vulnerability that could allow an unauthenticated, remote attacker to cause a denial-of-service (DoS) of the RAVPN service.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2024-10-24T00:00:00Z&lt;br&gt;Vendor: Cisco&lt;br&gt;Product: Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-bf-dos-vDZhLqrW&#39;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-bf-dos-vDZhLqrW&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-47575 - Fortinet FortiManager Missing Authentication Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-47575</link>
+      <description>Fortinet FortiManager contains a missing authentication vulnerability in the fgfmd daemon that allows a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted requests.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2024-10-23T00:00:00Z&lt;br&gt;Vendor: Fortinet&lt;br&gt;Product: FortiManager&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575&#39;&gt;https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://www.fortiguard.com/psirt/FG-IR-24-423&#39;&gt;https://www.fortiguard.com/psirt/FG-IR-24-423&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-38816 - Spring Framework WebMvc.fn or WebFlux.fn Path Traversal Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-38816</link>
+      <description>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running. Specifically, an application is vulnerable when both of the following are true: * the web application uses RouterFunctions to serve static resources * resource handling is explicitly configured with a FileSystemResource location However, malicious requests are blocked and rejected when any of the following is true: * the Spring Security HTTP Firewall https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html  is in use * the application runs on Tomcat or Jetty&lt;br&gt;&lt;br&gt;Vendor: VMware Tanzu&lt;br&gt;Product: Spring Framework&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://cyble.com/blog/cyble-sensors-detect-attacks-on-java-framework-iot-devices/&#39;&gt;https://cyble.com/blog/cyble-sensors-detect-attacks-on-java-framework-iot-devices/&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/79bbdef007d7&#39;&gt;https://vulncheck.com/xdb/79bbdef007d7&lt;/a&gt; - &lt;a href=&#39;https://github.com/masa42/CVE-2024-38816-PoC&#39;&gt;https://github.com/masa42/CVE-2024-38816-PoC&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/802a28ccc80c&#39;&gt;https://vulncheck.com/xdb/802a28ccc80c&lt;/a&gt; - &lt;a href=&#39;https://github.com/WULINPIN/CVE-2024-38816-PoC&#39;&gt;https://github.com/WULINPIN/CVE-2024-38816-PoC&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-11900 - treck tcp\/ip Double Free</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-11900</link>
+      <description>The Treck TCP/IP stack before 6.0.1.41 has an IPv4 tunneling Double Free.&lt;br&gt;&lt;br&gt;Vendor: treck&lt;br&gt;Product: tcp\/ip&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://cyble.com/blog/cyble-sensors-detect-attacks-on-java-framework-iot-devices/&#39;&gt;https://cyble.com/blog/cyble-sensors-detect-attacks-on-java-framework-iot-devices/&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-20263 - Cisco hyperflex_hx_data_platform URL Redirection to Untrusted Site (&#39;Open Redirect&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-20263</link>
+      <description>A vulnerability in the web-based management interface of Cisco HyperFlex HX Data Platform could allow an unauthenticated, remote attacker to redirect a user to a malicious web page.&#xD;&#xA;&#xD;&#xA;&#xD; This vulnerability is due to improper input validation of the parameters in an HTTP request. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to redirect a user to a malicious website.&lt;br&gt;&lt;br&gt;Vendor: Cisco&lt;br&gt;Product: hyperflex_hx_data_platform&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/&#39;&gt;https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-38094 - Microsoft SharePoint Deserialization Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-38094</link>
+      <description>Microsoft SharePoint contains a deserialization vulnerability that allows for remote code execution.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2024-10-22T00:00:00Z&lt;br&gt;Vendor: Microsoft&lt;br&gt;Product: SharePoint&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://attackerkb.com/topics/Ev24ZWs2iT/cve-2024-38094#exploited-in-the-wild_9c3c0bdd-7a98-48de-a889-f351a2aec7cf&#39;&gt;https://attackerkb.com/topics/Ev24ZWs2iT/cve-2024-38094#exploited-in-the-wild_9c3c0bdd-7a98-48de-a889-f351a2aec7cf&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-36831 - NextScripts: Social Networks Auto-Poster plugin for WordPress Multiple User privilege/security Functions Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-36831</link>
+      <description>The NextScripts: Social Networks Auto-Poster plugin for WordPress is vulnerable to authorization bypass due to missing capability checks on multiple user privilege/security functions provided in versions up to, and including 4.3.17. This makes it possible for low-privileged attackers, like subscribers, to perform restricted actions that would be otherwise locked to a administrative-level user.&lt;br&gt;&lt;br&gt;Vendor: NextScripts&lt;br&gt;Product: NextScripts: Social Networks Auto-Poster plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/social-networks-auto-poster-facebook-twitter-g/nextscripts-social-networks-auto-poster-4317-missing-authorization&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/social-networks-auto-poster-facebook-twitter-g/nextscripts-social-networks-auto-poster-4317-missing-authorization&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2016-15042 - Frontend File Manager and N-Media Post Front-end Form plugins for WordPress nm_filemanager_upload_file and nm_postfront_upload_file AJAX Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2016-15042</link>
+      <description>The Frontend File Manager (versions &lt; 4.0), N-Media Post Front-end Form (versions &lt; 1.1) plugins for WordPress are vulnerable to arbitrary file uploads due to missing file type validation via the `nm_filemanager_upload_file` and `nm_postfront_upload_file` AJAX actions. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.&lt;br&gt;&lt;br&gt;Vendor: N-Media&lt;br&gt;Product: Frontend File Manager and N-Media Post Front-end Form plugins for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/detail/frontend-file-manager-40-n-media-post-front-end-form-11-arbitrary-file-upload&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/detail/frontend-file-manager-40-n-media-post-front-end-form-11-arbitrary-file-upload&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-36842 - Migration, Backup, Staging -WPvivid plugin for WordPress wpvivid_upload_import_files and wpvivid_upload_files Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-36842</link>
+      <description>The Migration, Backup, Staging -WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.&lt;br&gt;&lt;br&gt;Vendor: WPvivid&lt;br&gt;Product: Migration, Backup, Staging -WPvivid plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wpvivid-backuprestore/migration-backup-staging-wpvivid-0935-authenticated-subscriber-arbitrary-file-upload&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wpvivid-backuprestore/migration-backup-staging-wpvivid-0935-authenticated-subscriber-arbitrary-file-upload&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2017-20194 - Formidable Form Builder plugin for WordPress frm_forms_preview AJAX Action Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2017-20194</link>
+      <description>The Formidable Form Builder plugin for WordPress is vulnerable to Sensitive Data Exposure in versions up to, and including, 2.05.03 via the frm_forms_preview AJAX action. This makes it possible for unauthenticated attackers to export all of the form entries for a given form.&lt;br&gt;&lt;br&gt;Vendor: Strategy11 Form Builder&lt;br&gt;Product: Formidable Form Builder plugin for WordPress&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/formidable/formidable-form-builder-20503-unauthenticated-information-disclosure&#39;&gt;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/formidable/formidable-form-builder-20503-unauthenticated-information-disclosure&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
