@@ -4,7 +4,7 @@ go 1.21.4
 
 require (
 	github.com/apex/log v1.9.0
-	github.com/gorilla/feeds v1.1.2
+	github.com/gorilla/feeds v1.2.0
 	github.com/vulncheck-oss/sdk v1.6.2
 )
 
