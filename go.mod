@@ -5,11 +5,12 @@ go 1.21.4
 require (
 	github.com/apex/log v1.9.0
 	github.com/gorilla/feeds v1.1.2
-	github.com/vulncheck-oss/sdk v1.2.10
+	github.com/vulncheck-oss/sdk v1.6.2
 )
 
 require (
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/getkin/kin-openapi v0.124.0 // indirect
 	github.com/go-openapi/jsonpointer v0.20.2 // indirect
