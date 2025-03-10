@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Mon, 10 Mar 2025 00:17:22 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2025-1316 -   Improper Neutralization of Special Elements used in an OS Command (&#39;OS Command Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-1316</link>
+      <description>Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device&lt;br&gt;&lt;br&gt;Vendor: Edimax&lt;br&gt;Product: IC-7100 IP Camera&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.securityweek.com/edimax-camera-zero-day-disclosed-by-cisa-exploited-by-botnets/&#39;&gt;https://www.securityweek.com/edimax-camera-zero-day-disclosed-by-cisa-exploited-by-botnets/&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-22224 - VMware ESXi and Workstation TOCTOU Race Condition Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-22224</link>
+      <description>VMware ESXi and Workstation contain a time-of-check time-of-use (TOCTOU) race condition vulnerability that leads to an out-of-bounds write. Successful exploitation enables an attacker with local administrative privileges on a virtual machine to execute code as the virtual machine&#39;s VMX process running on the host.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2025-03-04T00:00:00Z&lt;br&gt;Vendor: VMware&lt;br&gt;Product: ESXi and Workstation&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&#39;&gt;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-22226 - VMware ESXi, Workstation, and Fusion Information Disclosure Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-22226</link>
+      <description>VMware ESXi, Workstation, and Fusion contain an information disclosure vulnerability due to an out-of-bounds read in HGFS. Successful exploitation allows an attacker with administrative privileges to a virtual machine to leak memory from the vmx process.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2025-03-04T00:00:00Z&lt;br&gt;Vendor: VMware&lt;br&gt;Product: ESXi, Workstation, and Fusion&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&#39;&gt;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-22225 - VMware ESXi Arbitrary Write Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-22225</link>
+      <description>VMware ESXi contains an arbitrary write vulnerability. Successful exploitation allows an attacker with privileges within the VMX process to trigger an arbitrary kernel write leading to an escape of the sandbox.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2025-03-04T00:00:00Z&lt;br&gt;Vendor: VMware&lt;br&gt;Product: ESXi&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&#39;&gt;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2022-43769 - Hitachi Vantara Pentaho BA Server Special Element Injection Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2022-43769</link>
+      <description>Hitachi Vantara Pentaho BA Server contains a special element injection vulnerability that allows an attacker to inject Spring templates into properties files, allowing for arbitrary command execution.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2025-03-03T00:00:00Z&lt;br&gt;Vendor: Hitachi Vantara&lt;br&gt;Product: Pentaho Business Analytics (BA) Server&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://www.greynoise.io/blog/greynoise-observes-exploitation-three-newly-added-kev-vulnerabilities&#39;&gt;https://www.greynoise.io/blog/greynoise-observes-exploitation-three-newly-added-kev-vulnerabilities&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/ee3a42a38210&#39;&gt;https://vulncheck.com/xdb/ee3a42a38210&lt;/a&gt; - &lt;a href=&#39;https://github.com/dwbzn/pentaho-exploits&#39;&gt;https://github.com/dwbzn/pentaho-exploits&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-53197 - Linux kernel USB Audio Driver Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-53197</link>
+      <description>In the Linux kernel, the following vulnerability has been resolved:&#xA;&#xA;ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices&#xA;&#xA;A bogus device can provide a bNumConfigurations value that exceeds the&#xA;initial value used in usb_get_configuration for allocating dev-&gt;config.&#xA;&#xA;This can lead to out-of-bounds accesses later, e.g. in&#xA;usb_destroy_configuration.&lt;br&gt;&lt;br&gt;Vendor: Linux&lt;br&gt;Product: Kernel&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/&#39;&gt;https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-50302 - Linux Kernel Use of Uninitialized Resource Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-50302</link>
+      <description>The Linux kernel contains a use of uninitialized resource vulnerability that allows an attacker to leak kernel memory via a specially crafted HID report.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2025-03-04T00:00:00Z&lt;br&gt;Vendor: Linux&lt;br&gt;Product: Kernel&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/&#39;&gt;https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://source.android.com/docs/security/bulletin/2025-03-01&#39;&gt;https://source.android.com/docs/security/bulletin/2025-03-01&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-0289 -   Improper Input Validation</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-0289</link>
+      <description>Paragon Partition Manager version 17, both community and Business versions, contain an insecure kernel resource access vulnerability facilitated by the driver not validating the MappedSystemVa pointer before passing it to HalReturnToFirmware, which can allows an attacker the ability to compromise the service.&lt;br&gt;&lt;br&gt;Vendor: Paragon Software&lt;br&gt;Product: Partition Manager&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://kb.cert.org/vuls/id/726882&#39;&gt;https://kb.cert.org/vuls/id/726882&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-1999-0526 - X Server Disabled Access Control Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-1999-0526</link>
+      <description>An X server&#39;s access control is disabled (e.g. through an &#34;xhost +&#34; command) and allows anyone to connect to the server.&lt;br&gt;&lt;br&gt;Vendor: x.org&lt;br&gt;Product: x11&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://info.greynoise.io/hubfs/resources/GreyNoise-2025-Mass-Internet-Exploitation-Report.pdf&#39;&gt;https://info.greynoise.io/hubfs/resources/GreyNoise-2025-Mass-Internet-Exploitation-Report.pdf&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2016-6563 - D-Link dir-823_firmware Stack-based Buffer Overflow</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2016-6563</link>
+      <description>Processing malformed SOAP messages when performing the HNAP Login action causes a buffer overflow in the stack in some D-Link DIR routers. The vulnerable XML fields within the SOAP body are: Action, Username, LoginPassword, and Captcha. The following products are affected: DIR-823, DIR-822, DIR-818L(W), DIR-895L, DIR-890L, DIR-885L, DIR-880L, DIR-868L, and DIR-850L.&lt;br&gt;&lt;br&gt;Vendor: D-Link&lt;br&gt;Product: dir-823_firmware&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://info.greynoise.io/hubfs/resources/GreyNoise-2025-Mass-Internet-Exploitation-Report.pdf&#39;&gt;https://info.greynoise.io/hubfs/resources/GreyNoise-2025-Mass-Internet-Exploitation-Report.pdf&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
