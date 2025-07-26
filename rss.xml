@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sat, 26 Jul 2025 18:06:21 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2014-125119 - rarlab winrar Improper Input Validation</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2014-125119</link>
+      <description>A filename spoofing vulnerability exists in WinRAR when opening specially crafted ZIP archives. The issue arises due to inconsistencies between the Central Directory and Local File Header entries in ZIP files. When viewed in WinRAR, the file name from the Central Directory is displayed to the user, while the file from the Local File Header is extracted and executed. An attacker can leverage this flaw to spoof filenames and trick users into executing malicious payloads under the guise of harmless files, potentially leading to remote code execution.&lt;br&gt;&lt;br&gt;Vendor: rarlab&lt;br&gt;Product: winrar&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2014-125119&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2014-125119&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://www.vulncheck.com/advisories/winrar-filename-spoofing-rce&#39;&gt;https://www.vulncheck.com/advisories/winrar-filename-spoofing-rce&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-32814 - infoblox netmri Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-32814</link>
+      <description>An issue was discovered in Infoblox NETMRI before 7.6.1. Unauthenticated SQL Injection can occur.&lt;br&gt;&lt;br&gt;Vendor: infoblox&lt;br&gt;Product: netmri&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://app.crowdsec.net/cti/cve-explorer/CVE-2025-32814&#39;&gt;https://app.crowdsec.net/cti/cve-explorer/CVE-2025-32814&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-30220 - geoserver geoserver Improper Restriction of XML External Entity Reference</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-30220</link>
+      <description>GeoServer is an open source server that allows users to share and edit geospatial data. GeoTools Schema class use of Eclipse XSD library to represent schema data structure is vulnerable to XML External Entity (XXE) exploit. This impacts whoever exposes XML processing with gt-xsd-core involved in parsing, when the documents carry a reference to an external XML schema. The gt-xsd-core Schemas class is not using the EntityResolver provided by the ParserHandler (if any was configured). This also impacts users of gt-wfs-ng DataStore where the ENTITY_RESOLVER connection parameter was not being used as intended. This vulnerability is fixed in GeoTools 33.1, 32.3, 31.7, and 28.6.1, GeoServer 2.27.1, 2.26.3, and 2.25.7, and GeoNetwork 4.4.8 and 4.2.13.&lt;br&gt;&lt;br&gt;Vendor: geoserver&lt;br&gt;Product: geoserver&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-22&amp;host_type=src&amp;vulnerability=cve-2025-30220&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-22&amp;host_type=src&amp;vulnerability=cve-2025-30220&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-23&amp;host_type=src&amp;vulnerability=cve-2025-30220&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-23&amp;host_type=src&amp;vulnerability=cve-2025-30220&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-24&amp;host_type=src&amp;vulnerability=cve-2025-30220&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-24&amp;host_type=src&amp;vulnerability=cve-2025-30220&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-25&amp;host_type=src&amp;vulnerability=cve-2025-30220&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-25&amp;host_type=src&amp;vulnerability=cve-2025-30220&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2022-23397 - cedargate ez-net_portal Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2022-23397</link>
+      <description>The Cedar Gate EZ-NET portal 6.5.5 6.8.0 Internet portal has a call to display messages to users which does not properly sanitize data sent in through a URL parameter. This leads to a Reflected Cross-Site Scripting vulnerability. NOTE: the vendor disputes this because the ado.im reference has &#34;no clear steps of reproduction.&#34;&lt;br&gt;&lt;br&gt;Vendor: cedargate&lt;br&gt;Product: ez-net_portal&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://app.crowdsec.net/cti/cve-explorer/CVE-2022-23397&#39;&gt;https://app.crowdsec.net/cti/cve-explorer/CVE-2022-23397&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2018-13350 - TerraMaster TerraMaster OS Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2018-13350</link>
+      <description>SQL injection in logtable.php in TerraMaster TOS version 3.1.03 allows attackers to execute SQL queries via the &#34;Event&#34; parameter.&lt;br&gt;&lt;br&gt;Vendor: TerraMaster&lt;br&gt;Product: TerraMaster OS&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2018-13350&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2018-13350&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-5285 - tongda2000 tongda_office_anywhere Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-5285</link>
+      <description>A vulnerability classified as critical was found in Tongda OA 2017. Affected by this vulnerability is an unknown functionality of the file general/hr/recruit/recruitment/delete.php. The manipulation of the argument RECRUITMENT_ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. The identifier VDB-240913 was assigned to this vulnerability.&lt;br&gt;&lt;br&gt;Vendor: tongda2000&lt;br&gt;Product: tongda_office_anywhere&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2023-5285&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2023-5285&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-28137 - totolink a810r_firmware Improper Neutralization of Special Elements used in an OS Command (&#39;OS Command Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-28137</link>
+      <description>The TOTOLINK A810R V4.1.2cu.5182_B20201026 were found to contain a pre-auth remote command execution vulnerability in the setNoticeCfg function through the NoticeUrl parameter.&lt;br&gt;&lt;br&gt;Vendor: totolink&lt;br&gt;Product: a810r_firmware&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2025-28137&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2025-28137&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-30194 - prestashop poststaticfooter Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-30194</link>
+      <description>Prestashop posstaticfooter &lt;= 1.0.0 is vulnerable to SQL Injection via posstaticfooter::getPosCurrentHook().&lt;br&gt;&lt;br&gt;Vendor: prestashop&lt;br&gt;Product: poststaticfooter&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2023-30194&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2023-30194&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-4281 -   Exposure of Sensitive Information to an Unauthorized Actor</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-4281</link>
+      <description>A vulnerability, which was classified as problematic, was found in Shenzhen Sixun Software Sixun Shanghui Group Business Management System 7. This affects an unknown part of the file /api/GylOperator/LoadData. The manipulation leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.&lt;br&gt;&lt;br&gt;Vendor: Shenzhen Sixun Software&lt;br&gt;Product: Sixun Shanghui Group Business Management System&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2025-4281&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2025-4281&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-34193 -   Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-34193</link>
+      <description>smanga 3.2.7 does not filter the file parameter at the PHP/get file flow.php interface, resulting in a path traversal vulnerability that can cause arbitrary file reading.&lt;br&gt;&lt;br&gt;Vendor: smanga&lt;br&gt;Product: smanga&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2024-34193&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2025-07-21&amp;host_type=src&amp;vulnerability=cve-2024-34193&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
