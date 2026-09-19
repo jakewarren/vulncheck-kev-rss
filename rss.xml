@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sat, 19 Sep 2026 12:15:40 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2025-39964 - Linux Kernel Race Condition Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-39964</link>
+      <description>Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket&#39;s internal state.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2026-09-18T00:00:00Z&lt;br&gt;Vendor: Linux&lt;br&gt;Product: Kernel&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-53266 - Linux Kernel Out-of-Bounds Write Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-53266</link>
+      <description>Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2026-09-18T00:00:00Z&lt;br&gt;Vendor: Linux&lt;br&gt;Product: Kernel&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-86124 -   Missing Authentication for Critical Function</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-86124</link>
+      <description>AutoAgent contains an unauthenticated remote code execution vulnerability in the TCP server that binds to all interfaces and executes attacker-supplied commands as root. Attackers can connect to the exposed communication port and execute arbitrary bash commands within the container, gaining access to bind-mounted host workspace directories.&lt;br&gt;&lt;br&gt;Vendor: HKUDS&lt;br&gt;Product: AutoAgent&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-86124&amp;date=2026-09-18&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-86124&amp;date=2026-09-18&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-86124&amp;date=2026-09-19&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-86124&amp;date=2026-09-19&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-39682 - Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-39682</link>
+      <description>Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2026-09-18T00:00:00Z&lt;br&gt;Vendor: Linux&lt;br&gt;Product: Kernel&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/6a8c414d19be&#39;&gt;https://vulncheck.com/xdb/6a8c414d19be&lt;/a&gt; - &lt;a href=&#39;https://github.com/khoatran107/cve-2025-39682&#39;&gt;https://github.com/khoatran107/cve-2025-39682&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2017-20284 -   Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2017-20284</link>
+      <description>Caucho Resin contains a path traversal vulnerability in the documentation webapp (resin-doc) that allows remote unauthenticated attackers to read arbitrary files by supplying a relative path through the inputFile request parameter of the jndi-appconfig tutorial servlet. Attackers can craft requests with directory traversal sequences to the servlet endpoint to read files outside the intended tutorial directory on the underlying system. Exploitation evidence was first observed by the Shadowserver Foundation on 2021-12-10.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2017-20284&#39;&gt;https://previdian.com/CVE-2017-20284&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2017-20284&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2017-20284&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-84434 -   Unrestricted Upload of File with Dangerous Type</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-84434</link>
+      <description>The Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.1.0.4 via the upload_file function. This is due to a mismatch between the field validation pipeline and the file persistence pipeline, where hidden file upload fields bypass extension validation and a rejected file&#39;s intact upload state is later passed to upload_file() without re-validation. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. Exploitation requires the targeted form to contain a File Upload field with its Visibility set to &#39;Hidden&#39;; the vulnerability is reachable by unauthenticated attackers on any publicly accessible form meeting this condition.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/gravityforms/vulnerability/wordpress-gravity-forms-plugin-3-1-0-4-unauthenticated-arbitrary-file-upload-via-hidden-file-upload-field-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/gravityforms/vulnerability/wordpress-gravity-forms-plugin-3-1-0-4-unauthenticated-arbitrary-file-upload-via-hidden-file-upload-field-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2022-25497 - cuppacms cuppacms Files or Directories Accessible to External Parties</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2022-25497</link>
+      <description>CuppaCMS v1.0 was discovered to contain an arbitrary file read via the copy function.&lt;br&gt;&lt;br&gt;Vendor: cuppacms&lt;br&gt;Product: cuppacms&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2022-25497&#39;&gt;https://previdian.com/CVE-2022-25497&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-89013 - dolibarr dolibarr_erp\/crm Incorrect Authorization</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-89013</link>
+      <description>Dolibarr 23.0.4 before 24.0.1 contains an authorization bypass vulnerability that allows unauthenticated attackers to read arbitrary files through the document storage endpoints by supplying a crafted hashp parameter value. Attackers can send a request with hashp=shared to skip token validation while satisfying the authorization condition in htdocs/document.php and htdocs/viewimage.php, gaining access to application logs, uploaded business documents, database backups containing password hashes, and files belonging to other multicompany entities.&lt;br&gt;&lt;br&gt;Vendor: dolibarr&lt;br&gt;Product: dolibarr_erp\/crm&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2026-89013&#39;&gt;https://previdian.com/CVE-2026-89013&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/7bd243cf05b2&#39;&gt;https://vulncheck.com/xdb/7bd243cf05b2&lt;/a&gt; - &lt;a href=&#39;https://github.com/Faceless0x7/CVE-2026-89013&#39;&gt;https://github.com/Faceless0x7/CVE-2026-89013&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2022-45362 - paytm payment_gateway Server-Side Request Forgery (SSRF)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2022-45362</link>
+      <description>Server-Side Request Forgery (SSRF) vulnerability in Paytm Paytm Payment Gateway.This issue affects Paytm Payment Gateway: from n/a through 2.7.0.&lt;br&gt;&lt;br&gt;Vendor: paytm&lt;br&gt;Product: payment_gateway&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-09-17&amp;host_type=src&amp;vulnerability=cve-2022-45362&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-09-17&amp;host_type=src&amp;vulnerability=cve-2022-45362&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-32255 - kan kan Server-Side Request Forgery (SSRF)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-32255</link>
+      <description>Kan is an open-source project management tool. In versions 0.5.4 and below, the /api/download/attatchment endpoint has no authentication and no URL validation. The Attachment Download endpoint accepts a user-supplied URL query parameter and passes it directly to fetch() server-side, and returns the full response body. An unauthenticated attacker can use this to make HTTP requests from the server to internal services, cloud metadata endpoints, or private network resources. This issue has been fixed in version 0.5.5. To workaround this issue, block or restrict access to /api/download/attatchment at the reverse proxy level (nginx, Cloudflare, etc.).&lt;br&gt;&lt;br&gt;Vendor: kan&lt;br&gt;Product: kan&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-09-17&amp;host_type=src&amp;vulnerability=cve-2026-32255&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-09-17&amp;host_type=src&amp;vulnerability=cve-2026-32255&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/0c93045e60c9&#39;&gt;https://vulncheck.com/xdb/0c93045e60c9&lt;/a&gt; - &lt;a href=&#39;https://github.com/kOaDT/poc-cve-2026-32255&#39;&gt;https://github.com/kOaDT/poc-cve-2026-32255&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
