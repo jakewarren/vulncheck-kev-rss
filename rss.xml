@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sun, 04 Oct 2026 01:11:47 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2026-97359 - Rejetto hfs2 Improper Neutralization of Special Elements Used in a Template Engine</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-97359</link>
+      <description>HFS2 version 2.4.0 and earlier contains a template injection vulnerability in the multipart upload handler that allows unauthenticated attackers to achieve remote code execution by embedding malicious template syntax in a filename. Attackers can craft a filename containing a closing template quoting sequence followed by an exec macro, which bypasses the authorization check in the dispatcher to execute arbitrary commands on the underlying host system.&lt;br&gt;&lt;br&gt;Vendor: Rejetto&lt;br&gt;Product: hfs2&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-97359&amp;date=2026-10-03&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-97359&amp;date=2026-10-03&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-73382 - geminilabs site_reviews Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-73382</link>
+      <description>Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;) vulnerability in Gemini Labs Site Reviews site-reviews allows Stored XSS.This issue affects Site Reviews: from n/a through 8.2.0.&lt;br&gt;&lt;br&gt;Vendor: geminilabs&lt;br&gt;Product: site_reviews&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2026-73382&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2026-73382&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-56005 - Melapress wp_activity_log Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-56005</link>
+      <description>Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;) vulnerability in Melapress WP Activity Log wp-security-audit-log allows Stored XSS.This issue affects WP Activity Log: from n/a through 5.6.3.1.&lt;br&gt;&lt;br&gt;Vendor: Melapress&lt;br&gt;Product: wp_activity_log&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2026-56005&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2026-56005&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-54405 -   Unrestricted Upload of File with Dangerous Type</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-54405</link>
+      <description>H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an unauthenticated arbitrary file upload vulnerability in the /cas/fileUpload/upload endpoint that allows remote attackers to write arbitrary files by manipulating the caller-supplied token parameter without restricting path traversal or file type. Attackers can exploit the path traversal in the token parameter to upload a malicious JSP file into a web-accessible directory and then request it to achieve remote code execution as the web-server user. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-14.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2023-54405&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2023-54405&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-37278 -   Server-Side Request Forgery (SSRF)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-37278</link>
+      <description>Weaver e-Bridge contains an unauthenticated arbitrary file read vulnerability that allows remote attackers to access arbitrary files on the host system by supplying a file: URL to the downloadUrl parameter of the saveYZJFile endpoint. Attackers can exploit this flaw to read sensitive files such as /etc/passwd or configuration and credential files, and the same endpoint&#39;s support for http(s) URLs also enables server-side request forgery against internal network resources. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-17.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2020-37278&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2020-37278&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-65761 -   Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-65761</link>
+      <description>Joomla Extension - joomshaper.com - Unauthenticated SQL injection in Easy Store extension 1.0.0-2.0.1 - Improper validation of order parameters lead to an unauthenticated SQL injection in easystore, allowing full DB read access including credentials and sessions.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2026-65761&#39;&gt;https://previdian.com/CVE-2026-65761&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/cae2f566b237&#39;&gt;https://vulncheck.com/xdb/cae2f566b237&lt;/a&gt; - &lt;a href=&#39;https://github.com/shinthink/CVE-2026-65761&#39;&gt;https://github.com/shinthink/CVE-2026-65761&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/41c48722b30c&#39;&gt;https://vulncheck.com/xdb/41c48722b30c&lt;/a&gt; - &lt;a href=&#39;https://github.com/ywh-jfellus/CVE-2026-65761&#39;&gt;https://github.com/ywh-jfellus/CVE-2026-65761&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2014-125130 -   Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2014-125130</link>
+      <description>CodeArt Google MP3 Audio Player plugin (google-mp3-audio-player) for WordPress through 1.0.11 contains an unauthenticated arbitrary file read vulnerability that allows remote attackers to retrieve sensitive files by supplying a path-traversal payload in the file parameter of direct_download.php. Attackers can request paths ../../wp-config.php without authentication to download configuration files containing database credentials and secret keys, leading to full site compromise. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-19.&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2014-125130&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2014-125130&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-104286 - Fortinet FortiMail Path Traversal Vulnerability</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-104286</link>
+      <description>Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.&lt;br&gt;&lt;br&gt;Date Added to CISA KEV: 2026-10-01T00:00:00Z&lt;br&gt;Vendor: Fortinet&lt;br&gt;Product: FortiMail&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://fortiguard.fortinet.com/psirt/FG-IR-26-175&#39;&gt;https://fortiguard.fortinet.com/psirt/FG-IR-26-175&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&#39;&gt;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-58388 -   Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-58388</link>
+      <description>Sharp (and Toshiba Tec rebranded) multifunction printers contain an unauthenticated local file inclusion vulnerability that allows remote attackers to read arbitrary files by manipulating the path parameter in the installed_emanual_down.html endpoint. Attackers can supply directory traversal sequences such as path=/manual/../../../ to access files outside the intended manual directory, including /etc/passwd, coredump files containing credentials, and system configuration files. Exploitation evidence was first observed by the Shadowserver Foundation on 2024-07-30.&lt;br&gt;&lt;br&gt;Vendor: Sharp Corporation&lt;br&gt;Product: Multiple Multifunction Printers&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2024-58388&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2024-58388&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-3759 -   Missing Authentication for Critical Function</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-3759</link>
+      <description>Endpoint /cgi-bin-igd/netcore_set.cgi which is used for changing device configuration is accessible without authentication. This poses a significant security threat allowing for e.g: administrator account hijacking or AP password changing.&#xA;The vendor was contacted early about this disclosure but did not respond in any way.&lt;br&gt;&lt;br&gt;Vendor: Netis Systems&lt;br&gt;Product: WF2220&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2025-3759&#39;&gt;https://previdian.com/CVE-2025-3759&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
