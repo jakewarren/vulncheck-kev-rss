@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sat, 24 Oct 2026 18:12:29 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2026-90898 -   Improper Access Control</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-90898</link>
+      <description>Bifrost registers MCP clients through its management API. A stdio client is a command plus args. Bifrost starts that program in the gateway the moment the client is added. No MCP handshake required.&#xA;&#xA;&#xA;&#xA;The default is governance.auth_config.is_enabled=false. Auth off means every caller is a local admin. One unauthenticated POST /api/mcp/client is enough to run a program as the Bifrost process user (appuser on the official image).&#xA;&#xA;&#xA;&#xA; transports/v2.1.0 refuses an unauthenticated stdio registration with 403. transports/v2.0.0 still allows it.&lt;br&gt;&lt;br&gt;Vendor: maximhq&lt;br&gt;Product: Bifrost&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-90898&amp;date=2026-10-23&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-90898&amp;date=2026-10-23&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-28185 -   Insufficient Verification of Data Authenticity</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-28185</link>
+      <description>Unauthenticated Broken Authentication in Log in with Google &lt;= 1.4.2 versions.&lt;br&gt;&lt;br&gt;Vendor: rtCamp&lt;br&gt;Product: Log in with Google&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/login-with-google/vulnerability/wordpress-log-in-with-google-plugin-1-4-2-broken-authentication-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/login-with-google/vulnerability/wordpress-log-in-with-google-plugin-1-4-2-broken-authentication-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-106173 - Fortinet FortiSIEM Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-106173</link>
+      <description>A improper limitation of a pathname to a restricted directory (&#39;path traversal&#39;) vulnerability in Fortinet FortiSIEM 7.5.0 may allow attacker to execute unauthorized code or commands via specially crafted packets.&lt;br&gt;&lt;br&gt;Vendor: Fortinet&lt;br&gt;Product: FortiSIEM&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://previdian.com/CVE-2026-106173&#39;&gt;https://previdian.com/CVE-2026-106173&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/f4323aae2d7a&#39;&gt;https://vulncheck.com/xdb/f4323aae2d7a&lt;/a&gt; - &lt;a href=&#39;https://github.com/horizon3ai/CVE-2026-106173&#39;&gt;https://github.com/horizon3ai/CVE-2026-106173&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/5d93dac2fb52&#39;&gt;https://vulncheck.com/xdb/5d93dac2fb52&lt;/a&gt; - &lt;a href=&#39;https://github.com/tc4dy/CVE-2026-106173-PoC-Exploit&#39;&gt;https://github.com/tc4dy/CVE-2026-106173-PoC-Exploit&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/4a00a52aef98&#39;&gt;https://vulncheck.com/xdb/4a00a52aef98&lt;/a&gt; - &lt;a href=&#39;https://github.com/MRdark-ops/rce-FortiSIEM&#39;&gt;https://github.com/MRdark-ops/rce-FortiSIEM&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2021-23337 - lodash lodash Improper Control of Generation of Code (&#39;Code Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2021-23337</link>
+      <description>Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.&lt;br&gt;&lt;br&gt;Vendor: lodash&lt;br&gt;Product: lodash&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-10-23&amp;host_type=src&amp;vulnerability=cve-2021-23337&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?day=2026-10-23&amp;host_type=src&amp;vulnerability=cve-2021-23337&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-58394 - retool retool Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-58394</link>
+      <description>Retool before 3.88.0 contains a cross-site scripting vulnerability that allows unauthenticated attackers to execute scripts by proxying malicious SVG files through /api/imageProxy. Attackers can supply an attacker-hosted SVG in the url parameter, which is served from the Retool origin without a Content Security Policy, executing JavaScript in victims&#39; sessions. Exploitation evidence was first observed by the Shadowserver Foundation on 2024-10-15.&lt;br&gt;&lt;br&gt;Vendor: Retool&lt;br&gt;Product: Retool&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2024-58394&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2024-58394&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2017-20289 -   Improper Control of Filename for Include/Require Statement in PHP Program (&#39;PHP Remote File Inclusion&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2017-20289</link>
+      <description>Broadstreet Ad Widget plugin for WordPress 2.2.0 before 2.12.0 contains a local file inclusion vulnerability that allows authenticated users to execute attacker-chosen PHP files by passing unsanitized input to require in views/modal/index.php. Attackers can supply directory traversal sequences in the &#39;step&#39; parameter, optionally with a null byte, to include local files and execute PHP code. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-19.&lt;br&gt;&lt;br&gt;Vendor: Broadstreet&lt;br&gt;Product: Ad Widget&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2017-20289&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2017-20289&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2021-48015 - huayi-tec jeewms Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2021-48015</link>
+      <description>JeeWMS before commit 0a610e8 contains an unauthenticated path traversal vulnerability that allows remote attackers to read arbitrary files via the dbPath parameter. Attackers can send GET requests to /systemController/showOrDownByurl.do with ../ sequences in dbPath, which bypasses AuthInterceptor, to retrieve files like win.ini. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-17.&lt;br&gt;&lt;br&gt;Vendor: erzhongxmu&lt;br&gt;Product: JeeWMS&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2021-48015&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2021-48015&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2022-51022 -   Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2022-51022</link>
+      <description>YiShaAdmin 2.2 through 3.1, fixed in commit 025b062, contains an unauthenticated path traversal vulnerability in the /admin/File/DownloadFile endpoint that allows attackers to read and delete arbitrary files via the filePath parameter. Attackers can send crafted GET requests with directory traversal sequences in filePath and set the delete parameter to read or remove system files like etc/passwd. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-20.&lt;br&gt;&lt;br&gt;Vendor: liukuo362573&lt;br&gt;Product: YiShaAdmin&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2022-51022&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2022-51022&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2017-20290 - discourse discourse Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2017-20290</link>
+      <description>Discourse 1.9.0.beta2 before 1.9.0.beta13 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the email parameter of /email/unsubscribed. Attackers can craft GET requests with SVG onload payloads, which unsubscribed.html.erb renders unescaped via html_safe, executing JavaScript in victims&#39; browsers. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-19.&lt;br&gt;&lt;br&gt;Vendor: Discourse&lt;br&gt;Product: Discourse&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2017-20290&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2017-20290&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2019-25778 - seacms seacms Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2019-25778</link>
+      <description>SeaCMS through 8.7 contains an unauthenticated SQL injection vulnerability that allows remote attackers to manipulate database queries by injecting SQL through the rlist[] array parameter. Attackers can send GET requests to /comment/api/index.php with crafted rlist[] values using backtick-quoted variables and extractvalue to extract database information via error messages. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-14.&lt;br&gt;&lt;br&gt;Vendor: SeaCMS&lt;br&gt;Product: SeaCMS&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://www.cve.org/CVERecord?id=CVE-2019-25778&#39;&gt;https://www.cve.org/CVERecord?id=CVE-2019-25778&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
