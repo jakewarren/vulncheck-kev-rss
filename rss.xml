@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sat, 14 Nov 2026 18:07:35 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2026-84761 - LiteSpeed Technologies LiteSpeed Cache Server-Side Request Forgery</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-84761</link>
+      <description>Server-Side Request Forgery (SSRF) vulnerability in Hai Zheng / Lite Speed Cache LiteSpeed Cache litespeed-cache allows Server Side Request Forgery.This issue affects LiteSpeed Cache: from n/a through 7.9.&lt;br&gt;&lt;br&gt;Vendor: LiteSpeed Technologies&lt;br&gt;Product: LiteSpeed Cache&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/litespeed-cache/vulnerability/wordpress-litespeed-cache-plugin-7-9-server-side-request-forgery-ssrf-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/litespeed-cache/vulnerability/wordpress-litespeed-cache-plugin-7-9-server-side-request-forgery-ssrf-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-118635 - ayecode geodirectory Improper Control of Generation of Code</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-118635</link>
+      <description>The The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.8.198 This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.&lt;br&gt;&lt;br&gt;Vendor: paoltaia&lt;br&gt;Product: GeoDirectory&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/geodirectory/vulnerability/wordpress-geodirectory-wp-business-directory-plugin-and-classified-listings-directory-plugin-2-8-198-unauthenticated-shortcode-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/geodirectory/vulnerability/wordpress-geodirectory-wp-business-directory-plugin-and-classified-listings-directory-plugin-2-8-198-unauthenticated-shortcode-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-61991 - ajaxloadmore ajaxloadmore_cache Improper Control of Generation of Code</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-61991</link>
+      <description>Unauthenticated Remote Code Execution (RCE) in AjaxLoadMore Cache &lt;= 3.1.1 versions.&lt;br&gt;&lt;br&gt;Vendor: Ajax Load More&lt;br&gt;Product: AjaxLoadMore Cache&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/ajax-load-more-cache/vulnerability/wordpress-ajaxloadmore-cache-plugin-3-1-1-remote-code-execution-rce-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/ajax-load-more-cache/vulnerability/wordpress-ajaxloadmore-cache-plugin-3-1-1-remote-code-execution-rce-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-39732 - ivijanstefan transliterator Improper Neutralization of Special Elements used in an SQL Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-39732</link>
+      <description>Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;) vulnerability in INTINITUM FORM Transliterator serbian-transliteration allows Blind SQL Injection.This issue affects Transliterator: from n/a through 2.5.13.&lt;br&gt;&lt;br&gt;Vendor: Ivijan-Stefan Stipic&lt;br&gt;Product: Transliterator&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/serbian-transliteration/vulnerability/wordpress-transliterator-plugin-2-5-13-sql-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/serbian-transliteration/vulnerability/wordpress-transliterator-plugin-2-5-13-sql-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/9f431ee57ebf&#39;&gt;https://vulncheck.com/xdb/9f431ee57ebf&lt;/a&gt; - &lt;a href=&#39;https://github.com/Mor-Golan/CVE-2026-39732&#39;&gt;https://github.com/Mor-Golan/CVE-2026-39732&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-34151 - XWiki xwiki Path Traversal: &#39;../filedir&#39;</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-34151</link>
+      <description>XWiki Platform is a generic wiki platform. Prior to 17.10.5 and 18.2.0, the /skin/ action in com.xpn.xwiki.web.SkinAction can resolve double-encoded parent-directory segments outside the intended skin or web-application resource prefix when Jetty 12 or later decodes the request path. The affected lookup is replaced with Environment.getResourceAsStream(String, String), which constrains a resource to its expected prefix. An unauthenticated remote attacker can use the vulnerable behavior to read arbitrary resources permitted to the Jetty process, including WEB-INF/xwiki.cfg and, depending on deployment depth and operating-system permissions, host files. Tomcat and Jetty versions before 12 do not appear affected. This issue is fixed in versions 17.10.5 and 18.2.0.&lt;br&gt;&lt;br&gt;Vendor: XWiki&lt;br&gt;Product: xwiki&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-34151&amp;date=2026-11-14&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-34151&amp;date=2026-11-14&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-0766 -   Improper Control of Generation of Code</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-0766</link>
+      <description>Rejected reason: Open WebU&#39;s investigation further investigation showed that this is intended functionality of the Plugins extension system, in which users granted the relevant permission author Python that the server executes by design, and not a security issue. https://docs.openwebui.com/security/vendor-dispositions/cve-2026-0766&lt;br&gt;&lt;br&gt;Vendor: openwebui&lt;br&gt;Product: Open WebUI&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-0766&amp;date=2026-11-14&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2026-0766&amp;date=2026-11-14&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/b7a187efccee&#39;&gt;https://vulncheck.com/xdb/b7a187efccee&lt;/a&gt; - &lt;a href=&#39;https://github.com/bitt0n/CVE-2026-0766&#39;&gt;https://github.com/bitt0n/CVE-2026-0766&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-59514 - buddyboss buddyboss_platform Improper Neutralization of Special Elements used in an SQL Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-59514</link>
+      <description>Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;) vulnerability in BuddyBoss Buddyboss Platform buddyboss-platform allows Blind SQL Injection.This issue affects Buddyboss Platform: from n/a through 3.0.5.&lt;br&gt;&lt;br&gt;Vendor: MightyNetworks vs BuddyBoss&lt;br&gt;Product: Buddyboss Platform&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/buddyboss-platform/vulnerability/wordpress-buddyboss-platform-plugin-3-0-5-sql-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/buddyboss-platform/vulnerability/wordpress-buddyboss-platform-plugin-3-0-5-sql-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-13423 - streamit_project streamit Improper Control of Generation of Code</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-13423</link>
+      <description>The Streamit WordPress theme before 4.5.2 does not perform any authorization or nonce verification on one of its unauthenticated AJAX routes, which invokes an attacker-supplied PHP function with an attacker-supplied argument array, allowing unauthenticated attackers to call arbitrary functions (for example to create an administrator account), leading to privilege escalation and remote code execution.&lt;br&gt;&lt;br&gt;Vendor: Iqonic Design&lt;br&gt;Product: Streamit&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/theme/streamit/vulnerability/wordpress-streamit-theme-4-5-0-unauthenticated-remote-code-execution-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/theme/streamit/vulnerability/wordpress-streamit-theme-4-5-0-unauthenticated-remote-code-execution-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2024-9441 - nortekcontrol emerge_e3_firmware Improper Neutralization of Special Elements used in an OS Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-9441</link>
+      <description>The Linear eMerge e3-Series through version 1.00-07 is vulnerable to an OS command injection vulnerability. A remote and unauthenticated attacker can execute arbitrary OS commands via the login_id parameter when invoking the forgot_password functionality over HTTP.&lt;br&gt;&lt;br&gt;Vendor: Linear&lt;br&gt;Product: eMerge e3-Series&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://ess.coalitioninc.com/cve/?id=CVE-2024-9441&amp;alert=2026-11-14&#39;&gt;https://ess.coalitioninc.com/cve/?id=CVE-2024-9441&amp;alert=2026-11-14&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/6c6b21b95c0b&#39;&gt;https://vulncheck.com/xdb/6c6b21b95c0b&lt;/a&gt; - &lt;a href=&#39;https://github.com/adhikara13/CVE-2024-9441&#39;&gt;https://github.com/adhikara13/CVE-2024-9441&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/c428faa747a6&#39;&gt;https://vulncheck.com/xdb/c428faa747a6&lt;/a&gt; - &lt;a href=&#39;https://github.com/p33d/CVE-2024-9441&#39;&gt;https://github.com/p33d/CVE-2024-9441&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/0d028e960eec&#39;&gt;https://vulncheck.com/xdb/0d028e960eec&lt;/a&gt; - &lt;a href=&#39;https://github.com/XiaomingX/cve-2024-9441-poc&#39;&gt;https://github.com/XiaomingX/cve-2024-9441-poc&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/7b09aae49bc9&#39;&gt;https://vulncheck.com/xdb/7b09aae49bc9&lt;/a&gt; - &lt;a href=&#39;https://github.com/jk-mayne/CVE-2024-9441-Checker&#39;&gt;https://github.com/jk-mayne/CVE-2024-9441-Checker&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-62031 - StylemixThemes ulisting Improper Neutralization of Special Elements used in an SQL Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-62031</link>
+      <description>Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;) vulnerability in StylemixThemes uListing ulisting allows Blind SQL Injection.This issue affects uListing: from n/a through 2.2.0.&lt;br&gt;&lt;br&gt;Vendor: Stylemix&lt;br&gt;Product: uListing&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/ulisting/vulnerability/wordpress-ulisting-plugin-2-2-0-sql-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/ulisting/vulnerability/wordpress-ulisting-plugin-2-2-0-sql-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
