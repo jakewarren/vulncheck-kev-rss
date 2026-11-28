@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulncheck KEV</title>
+    <link>https://vulncheck.com/browse/kev</link>
+    <description>Newly added vulnerabilities to the VulnCheck KEV database</description>
+    <managingEditor> (Data courtesy of VulnCheck)</managingEditor>
+    <pubDate>Sat, 28 Nov 2026 12:09:29 +0000</pubDate>
+    <item>
+      <title>[vulncheck] CVE-2024-39205 - pyload pyload Improper Control of Generation of Code</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2024-39205</link>
+      <description>An issue in pyload-ng v0.5.0b3.dev85 running under python3.11 or below allows attackers to execute arbitrary code via a crafted HTTP request.&lt;br&gt;&lt;br&gt;Vendor: pyload&lt;br&gt;Product: pyload&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2024-39205&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2024-39205&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/419671372c6f&#39;&gt;https://vulncheck.com/xdb/419671372c6f&lt;/a&gt; - &lt;a href=&#39;https://github.com/Marven11/CVE-2024-39205-Pyload-RCE&#39;&gt;https://github.com/Marven11/CVE-2024-39205-Pyload-RCE&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2020-13957 - Apache Solr Incorrect Authorization</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2020-13957</link>
+      <description>Apache Solr versions 6.6.0 to 6.6.6, 7.0.0 to 7.7.3 and 8.0.0 to 8.6.2 prevents some features considered dangerous (which could be used for remote code execution) to be configured in a ConfigSet that&#39;s uploaded via API without authentication/authorization. The checks in place to prevent such features can be circumvented by using a combination of UPLOAD/CREATE actions.&lt;br&gt;&lt;br&gt;Vendor: Apache&lt;br&gt;Product: Solr&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2020-13957&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2020-13957&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/bf0b0d15cf75&#39;&gt;https://vulncheck.com/xdb/bf0b0d15cf75&lt;/a&gt; - &lt;a href=&#39;https://github.com/s-index/CVE-2020-13957&#39;&gt;https://github.com/s-index/CVE-2020-13957&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2023-31719 - frangoteam fuxa Improper Neutralization of Special Elements used in an SQL Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2023-31719</link>
+      <description>FUXA &lt;= 1.1.12 is vulnerable to SQL Injection via /api/signin.&lt;br&gt;&lt;br&gt;Vendor: frangoteam&lt;br&gt;Product: fuxa&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2023-31719&#39;&gt;https://api.vulncheck.com/v3/index/vulncheck-canaries?cve=CVE-2023-31719&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/c454e0326c21&#39;&gt;https://vulncheck.com/xdb/c454e0326c21&lt;/a&gt; - &lt;a href=&#39;https://github.com/MateusTesser/CVE-2023-31719&#39;&gt;https://github.com/MateusTesser/CVE-2023-31719&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-125812 - wpmedia wp_rocket Improper Limitation of a Pathname to a Restricted Directory</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-125812</link>
+      <description>Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;) vulnerability in WP Media WP Rocket wp-rocket allows Path Traversal.This issue affects WP Rocket: from n/a before 3.24.2.&lt;br&gt;&lt;br&gt;Vendor: WP Media&lt;br&gt;Product: WP Rocket&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/articles/critical-wp-rocket-rce-cve-2026-125812-under-active-attack/&#39;&gt;https://patchstack.com/articles/critical-wp-rocket-rce-cve-2026-125812-under-active-attack/&lt;/a&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/wp-rocket/vulnerability/wordpress-wp-rocket-plugin-3-24-2-remote-code-execution-rce-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/wp-rocket/vulnerability/wordpress-wp-rocket-plugin-3-24-2-remote-code-execution-rce-vulnerability&lt;/a&gt;&lt;/ul&gt;VulnCheck XDB Entries:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://vulncheck.com/xdb/92b025dd094f&#39;&gt;https://vulncheck.com/xdb/92b025dd094f&lt;/a&gt; - &lt;a href=&#39;https://github.com/joshuavanderpoll/CVE-2026-125812&#39;&gt;https://github.com/joshuavanderpoll/CVE-2026-125812&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-60174 - crmperks wp_gravity_forms_constant_contact_plugin Deserialization of Untrusted Data</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-60174</link>
+      <description>Deserialization of Untrusted Data vulnerability in CRM Perks WP Gravity Forms Constant Contact Plugin gf-constant-contact allows Object Injection.This issue affects WP Gravity Forms Constant Contact Plugin: from n/a through &lt;= 1.1.2.&lt;br&gt;&lt;br&gt;Vendor: crmperks&lt;br&gt;Product: wp_gravity_forms_constant_contact_plugin&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/gf-constant-contact/vulnerability/wordpress-wp-gravity-forms-constant-contact-plugin-plugin-1-1-2-deserialization-of-untrusted-data-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/gf-constant-contact/vulnerability/wordpress-wp-gravity-forms-constant-contact-plugin-plugin-1-1-2-deserialization-of-untrusted-data-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-67917 - shinetheme traveler Missing Authorization</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-67917</link>
+      <description>Missing Authorization vulnerability in Shinetheme Traveler traveler allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Traveler: from n/a through 3.2.6.&lt;br&gt;&lt;br&gt;Vendor: shinetheme&lt;br&gt;Product: Traveler&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/theme/traveler/vulnerability/wordpress-traveler-theme-3-2-6-broken-access-control-vulnerability-2&#39;&gt;https://patchstack.com/database/wordpress/theme/traveler/vulnerability/wordpress-traveler-theme-3-2-6-broken-access-control-vulnerability-2&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2009-2283 - sun java_web_console Improper Neutralization of Input During Web Page Generation</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2009-2283</link>
+      <description>Multiple cross-site scripting (XSS) vulnerabilities in the help jsp scripts in Sun Java Web Console 3.0.2 through 3.0.5, and Sun Java Web Console in Solaris 10, allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.&lt;br&gt;&lt;br&gt;Vendor: sun&lt;br&gt;Product: java_web_console&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?host_type=src&amp;vulnerability=cve-2009-2283&#39;&gt;https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/map/?host_type=src&amp;vulnerability=cve-2009-2283&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-60180 - crmperks wp_gravity_forms_salesforce Deserialization of Untrusted Data</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-60180</link>
+      <description>Deserialization of Untrusted Data vulnerability in CRM Perks WP Gravity Forms Salesforce gf-salesforce-crmperks allows Object Injection.This issue affects WP Gravity Forms Salesforce: from n/a through &lt;= 1.5.1.&lt;br&gt;&lt;br&gt;Vendor: crmperks&lt;br&gt;Product: wp_gravity_forms_salesforce&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/gf-salesforce-crmperks/vulnerability/wordpress-wp-gravity-forms-salesforce-plugin-1-5-1-php-object-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/gf-salesforce-crmperks/vulnerability/wordpress-wp-gravity-forms-salesforce-plugin-1-5-1-php-object-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2026-131609 - vendidero germanized_for_woocommerce Improper Neutralization of Input During Web Page Generation</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2026-131609</link>
+      <description>The Germanized for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#39;billing_address.first_name (Store API checkout) → stored on parent order; withdrawal get_first_name() fallback&#39; parameter in all versions up to, and including, 4.1.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The payload is planted via an unauthenticated guest checkout order&#39;s billing first name through the WooCommerce Store API, with execution triggered by a subsequent unauthenticated withdrawal request submission whose nonce is publicly available on the /withdraw-from-contract/ page.&lt;br&gt;&lt;br&gt;Vendor: vendidero&lt;br&gt;Product: Germanized for WooCommerce&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/plugin/woocommerce-germanized/vulnerability/wordpress-germanized-for-woocommerce-plugin-4-1-8-unauthenticated-stored-cross-site-scripting-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/plugin/woocommerce-germanized/vulnerability/wordpress-germanized-for-woocommerce-plugin-4-1-8-unauthenticated-stored-cross-site-scripting-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[vulncheck] CVE-2025-52834 - Favethemes homey Improper Neutralization of Special Elements used in an SQL Command</title>
+      <link>https://nvd.nist.gov/vuln/detail/CVE-2025-52834</link>
+      <description>Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;) vulnerability in favethemes Homey homey allows SQL Injection.This issue affects Homey: from n/a through &lt;= 2.4.7.&lt;br&gt;&lt;br&gt;Vendor: Favethemes&lt;br&gt;Product: Homey&lt;br&gt;&lt;br&gt;VulnCheck Reported Exploitation Citations:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;https://patchstack.com/database/wordpress/theme/homey/vulnerability/wordpress-homey-2-4-5-sql-injection-vulnerability&#39;&gt;https://patchstack.com/database/wordpress/theme/homey/vulnerability/wordpress-homey-2-4-5-sql-injection-vulnerability&lt;/a&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
